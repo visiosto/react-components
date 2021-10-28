@@ -2,8 +2,31 @@
   "name": "@visiosto/platform-gatsby",
   "version": "0.1.0-dev",
   "description": "Components powering the development of the Visiosto cloud platform built on top of Gatsby and React",
-  "main": "index.js",
-  "repository": "https://github.com/visiosto/platform-gatsby.git",
+  "main": "lib/index.js",
+  "module": "lib-esm/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/visiosto/platform-gatsby.git"
+  },
   "author": "Antti Kivi <antti.kivi@visiosto.fi>",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/visiosto/platform-gatsby/issues"
+  },
+  "homepage": "https://github.com/visiosto/platform-gatsby#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-typescript": "^7.15.0",
+    "rollup": "^2.58.3",
+    "rollup-plugin-babel": "^4.4.0"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
 }
