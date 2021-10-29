@@ -1,6 +1,6 @@
 {
   "name": "@visiosto/platform-gatsby",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Components powering the development of the Visiosto cloud platform built on top of Gatsby and React",
   "main": "lib/index.js",
   "module": "lib-esm/index.js",
