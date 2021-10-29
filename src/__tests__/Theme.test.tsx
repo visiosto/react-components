@@ -6,7 +6,7 @@ import { render } from '@testing-library/react';
 
 import Theme from '../Theme';
 
-const theme = {};
+import theme from '../util/theme';
 
 describe('Theme component', () => {
   it('renders correctly', () => {
