@@ -31,10 +31,8 @@ jobs:
 
     - name: Publish package to npm registry
       run: |
-        echo "//registry.npmjs.org/:_authToken=${{ secrets.NODE_AUTH_TOKEN }}" > ~/.npmrc
+        echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
         yarn publish --access public
-      env:
-        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
     - name: Set up Node.js environment for publishing to GitHub registry
       uses: actions/setup-node@v2.4.1
