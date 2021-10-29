@@ -9,6 +9,9 @@ export type { CardProps } from './Card';
 export { default as Card } from './Card';
 export type { ThemeProps } from './Theme';
 export { default as Theme } from './Theme';
+export { default as ThemeContext } from './ThemeContext';
+export type { ThemeContextProviderProps } from './ThemeContextProvider';
+export { default as ThemeContextProvider } from './ThemeContextProvider';
 
 export { default as createFontStack } from './util/createFontStack';
 export { default as theme } from './util/theme';
