@@ -28,6 +28,8 @@ function ThemeContextProvider({ children, colors }: ThemeContextProviderProps) {
     const initialColorValue = root.style.getPropertyValue(initialColorModeCSSProp);
 
     rawSetColorMode(initialColorValue);
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const contextValue = useMemo(() => {
@@ -53,6 +55,8 @@ function ThemeContextProvider({ children, colors }: ThemeContextProviderProps) {
       colorMode,
       setColorMode,
     };
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [colorMode, rawSetColorMode]);
 
   return <ThemeContext.Provider value={contextValue}>{children}</ThemeContext.Provider>;

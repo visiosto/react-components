@@ -1,1 +1,5 @@
+dist/
+lib/
+lib-esm/
+node_modules/
 public/
