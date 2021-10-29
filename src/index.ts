@@ -5,6 +5,8 @@ export type { AppProps } from './App';
 export { default as App } from './App';
 export type { ButtonProps } from './Button';
 export { default as Button } from './Button';
+export type { CardProps } from './Card';
+export { default as Card } from './Card';
 export type { ThemeProps } from './Theme';
 export { default as Theme } from './Theme';
 
