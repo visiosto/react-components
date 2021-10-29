@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component renders accept colours correctly 1`] = `
+<div>
+  <span
+    class="sc-bdvvtL sc-hKwDye cQWVfy gRYswd"
+  >
+    Button
+  </span>
+</div>
+`;
+
+exports[`Button component renders accept colours correctly on a thin button 1`] = `
+<div>
+  <span
+    class="sc-bdvvtL sc-hKwDye cQWVfy gRYswd"
+  >
+    Button
+  </span>
+</div>
+`;
+
+exports[`Button component renders cancel colours correctly 1`] = `
+<div>
+  <span
+    class="sc-bdvvtL sc-eCImPb cQWVfy buYYcp"
+  >
+    Button
+  </span>
+</div>
+`;
+
+exports[`Button component renders cancel colours correctly on a thin button 1`] = `
+<div>
+  <span
+    class="sc-bdvvtL sc-eCImPb cQWVfy buYYcp"
+  >
+    Button
+  </span>
+</div>
+`;
+
+exports[`Button component renders default colours correctly 1`] = `
+<div>
+  <span
+    class="sc-bdvvtL sc-dkPtRN cQWVfy kLqXOg"
+  >
+    Button
+  </span>
+</div>
+`;
+
+exports[`Button component renders default colours correctly on a thin button 1`] = `
+<div>
+  <span
+    class="sc-gsDKAQ sc-jRQBWg gxMheJ eVIhDg"
+  >
+    Button
+  </span>
+</div>
+`;

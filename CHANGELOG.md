@@ -11,5 +11,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and this 
 - App and theme wrapper components.
 - Font stack utility.
 - Base theme for projects using the package.
+- Button component.
 
 [unreleased]: https://github.com/visiosto/platform-gatsby
