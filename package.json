@@ -5,7 +5,22 @@
   "main": "lib/index.js",
   "module": "lib-esm/index.js",
   "typings": "lib/index.d.ts",
-  "scripts": {},
+  "scripts": {
+    "build": "npm-run-all clean bundle compile type-check copy-type-declarations",
+    "bundle": "cross-env NODE_ENV=production rollup -c",
+    "compile": "cross-env BABEL_MODULE=commonjs babel src --out-dir lib --extensions \".js,.ts,.jsx,.tsx\" && babel src --out-dir lib-esm --extensions \".js,.ts,.jsx,.tsx\"",
+    "copy-type-declarations": "copyfiles -u 1 \"./lib/**/*.d.ts\" ./lib-esm",
+    "check-all": "npm-run-all format --parallel lint:js lint:css",
+    "ci-check": "npm-run-all nit --parallel lint:js lint:css",
+    "format": "prettier --config .prettierrc.json --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "nit": "prettier --config .prettierrc.json --list-different \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "test": "jest",
+    "lint:js": "eslint --ext .js,.jsx,.ts,.tsx .",
+    "lint:css": "stylelint './src/**/*{.js,.jsx,.ts,.tsx}'",
+    "type-check": "tsc --project tsconfig.build.json",
+    "clean": "rm -rf dist && rm -rf lib && rm -rf lib-esm",
+    "start": "echo \"Running the package isn't supported\""
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/visiosto/platform-gatsby.git"
@@ -24,8 +39,15 @@
     "@babel/preset-typescript": "^7.15.0",
     "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-node-resolve": "^13.0.6",
+    "@types/node": "^16.11.6",
+    "@types/prop-types": "^15.7.4",
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "@types/styled-components": "^5.1.15",
     "@typescript-eslint/eslint-plugin": "^5.2.0",
     "@typescript-eslint/parser": "^5.2.0",
+    "copyfiles": "^2.4.1",
+    "cross-env": "^7.0.3",
     "eslint": "^8.1.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-airbnb-typescript": "^14.0.1",
@@ -37,6 +59,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.26.1",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "npm-run-all": "^4.1.5",
     "prettier": "^2.4.1",
     "rollup": "^2.58.3",
     "rollup-plugin-babel": "^4.4.0",
@@ -48,6 +71,7 @@
   },
   "peerDependencies": {
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.3.3"
   }
 }
