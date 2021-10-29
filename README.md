@@ -1,4 +1,4 @@
-# @visiosto/platform-gatsby
+# Visiosto Platform Components for Gatsby
 
 An npm package with the components powering the development of the Visiosto cloud platform built on top of Gatsby and React.
 
