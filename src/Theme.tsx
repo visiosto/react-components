@@ -6,7 +6,7 @@ import { DefaultTheme, ThemeProvider } from 'styled-components';
 
 type AnyIfEmpty<T extends object> = keyof T extends never ? any : T;
 
-export type ThemeProps = { children: React.ReactNode; theme: AnyIfEmpty<DefaultTheme>; }
+export type ThemeProps = { children: React.ReactNode; theme: AnyIfEmpty<DefaultTheme> };
 
 function Theme({ children, theme }: ThemeProps) {
   return <ThemeProvider theme={theme}>{children}</ThemeProvider>;

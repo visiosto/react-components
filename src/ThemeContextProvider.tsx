@@ -10,7 +10,10 @@ import ThemeContext from './ThemeContext';
 
 import { initialColorModeCSSProp } from './constants';
 
-export type ThemeContextProviderProps = { children: React.ReactNode; colors: { [key: string]: string } };
+export type ThemeContextProviderProps = {
+  children: React.ReactNode;
+  colors: { [key: string]: string };
+};
 
 function ThemeContextProvider({ children, colors }: ThemeContextProviderProps) {
   // Use state in a function component as this is the way it was done in the original code.
