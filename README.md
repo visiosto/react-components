@@ -1,5 +1,7 @@
 # Visiosto Platform Components for Gatsby
 
+[![Main workflow](https://github.com/visiosto/platform-gatsby/actions/workflows/main.yml/badge.svg)](https://github.com/visiosto/platform-gatsby/actions/workflows/main.yml)
+
 An npm package with the components powering the development of the Visiosto cloud platform built on top of Gatsby and React.
 
 
