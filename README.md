@@ -4,7 +4,6 @@
 
 An npm package with the components powering the development of the Visiosto cloud platform built on top of Gatsby and React.
 
-
 ## Install
 
 **With `yarn`:**
@@ -45,7 +44,6 @@ Finally, build the project.
 
     yarn build
 
-
 ## Contributing
 
 Contributions to `platform-gatsby` are welcome and encouraged! There are many ways to [contribute](https://github.com/visiosto/.github/blob/main/CONTRIBUTING.md#how-can-i-contribute) to it. You can find the guidelines for contributing in [CONTRIBUTING](CONTRIBUTING.md).
@@ -55,4 +53,3 @@ This project adheres to the Contributor Covenant [Code of Conduct](https://githu
 ## Licence
 
 `platform-gatsby`’s source code is licensed under the [MIT License](LICENCE).
-
