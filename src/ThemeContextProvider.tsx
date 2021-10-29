@@ -12,7 +12,7 @@ import { initialColorModeCSSProp } from './constants';
 
 export type ThemeContextProviderProps = {
   children: React.ReactNode;
-  colors: { [key: string]: string };
+  colors: { [key: string]: {[key: string]: string} };
 };
 
 function ThemeContextProvider({ children, colors }: ThemeContextProviderProps) {
