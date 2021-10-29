@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card component renders card with smaller padding correctly 1`] = `
+<div>
+  <article
+    class="sc-bdvvtL hNslzD"
+  >
+    Test text
+  </article>
+</div>
+`;
+
+exports[`Card component renders centred card correctly 1`] = `
+<div>
+  <article
+    class="sc-bdvvtL hUOIrv"
+  >
+    Test text
+  </article>
+</div>
+`;
+
+exports[`Card component renders centred card with smaller padding correctly 1`] = `
+<div>
+  <article
+    class="sc-bdvvtL gqJgFf"
+  >
+    Test text
+  </article>
+</div>
+`;
+
+exports[`Card component renders correctly 1`] = `
+<div>
+  <article
+    class="sc-bdvvtL escuhn"
+  >
+    Test text
+  </article>
+</div>
+`;
