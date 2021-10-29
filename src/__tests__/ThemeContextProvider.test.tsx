@@ -6,11 +6,16 @@ import { render } from '@testing-library/react';
 
 import ThemeContextProvider from '../ThemeContextProvider';
 
-const colors = { background: { light: "#fff", dark: '#000'}, text: { light: "#000", dark: "#fff" }};
+const colors = {
+  background: { light: '#fff', dark: '#000' },
+  text: { light: '#000', dark: '#fff' },
+};
 
 describe('Theme context provider component', () => {
   it('renders correctly', () => {
-    const { container, getByText } = render(<ThemeContextProvider colors={colors}>Content</ThemeContextProvider>);
+    const { container, getByText } = render(
+      <ThemeContextProvider colors={colors}>Content</ThemeContextProvider>,
+    );
 
     expect(container).toMatchSnapshot();
 

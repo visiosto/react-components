@@ -8,7 +8,10 @@ import React from 'react';
 
 import ThemeContextProvider from './ThemeContextProvider';
 
-export type AppProps = { children: React.ReactNode; colors: { [key: string]: {[key: string]: string} } };
+export type AppProps = {
+  children: React.ReactNode;
+  colors: { [key: string]: { [key: string]: string } };
+};
 
 function App({ children, colors }: AppProps) {
   return <ThemeContextProvider colors={colors}>{children}</ThemeContextProvider>;

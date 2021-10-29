@@ -1,5 +1,6 @@
 {
   "include": ["./src/**/*.js", "./src/**/*.ts", "./src/**/*.tsx", "*.js", ".eslintrc.js"],
+  "exclude": ["./coverage/**"],
   "compilerOptions": {
     "target": "esnext",
     "module": "commonjs",

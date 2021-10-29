@@ -1,13 +1,13 @@
 // Copyright (c) 2021 Visiosto oy
 // Licensed under the MIT License
 
-import '../../test/matchMedia';
+import '../util/test/matchMedia';
 
 import React, { useContext } from 'react';
 
 import ThemeContext from '../ThemeContext';
 
-import renderWithProviders from '../../test/renderWithProviders';
+import renderWithProviders from '../util/test/renderWithProviders';
 
 function Component() {
   const { colorMode } = useContext(ThemeContext);

@@ -3,9 +3,16 @@
 public/
 
 # npm
+node_modules/
 package.json
 package-lock.json
 
 # Yarn
 .yarn/
 .pnp.*
+
+# Built files
+coverage/
+dist/
+lib/
+lib-esm/

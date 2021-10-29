@@ -6,7 +6,10 @@ import { render } from '@testing-library/react';
 
 import App from '../App';
 
-const colors = { background: { light: "#fff", dark: '#000'}, text: { light: "#000", dark: "#fff" }};
+const colors = {
+  background: { light: '#fff', dark: '#000' },
+  text: { light: '#000', dark: '#fff' },
+};
 
 describe('App component', () => {
   it('renders correctly', () => {

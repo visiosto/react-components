@@ -14,7 +14,11 @@ const extensions = ['.js', '.jsx', '.ts', '.tsx'];
 const formats = ['esm', 'umd'];
 
 const plugins = [
-  babel({ extensions, exclude: 'node_modules/**', runtimeHelpers: true }),
+  babel({
+    extensions,
+    exclude: ['node_modules/**', 'test/*.js', 'test/*.ts', 'src/__tests__/*.tsx'],
+    runtimeHelpers: true,
+  }),
   resolve({ extensions }),
   commonjs(),
 ];
