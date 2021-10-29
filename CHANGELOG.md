@@ -13,5 +13,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and this 
 - Base theme for projects using the package.
 - Button component.
 - Card component.
+- Material icon component.
 
 [unreleased]: https://github.com/visiosto/platform-gatsby

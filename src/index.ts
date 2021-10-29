@@ -7,6 +7,8 @@ export type { ButtonProps } from './Button';
 export { default as Button } from './Button';
 export type { CardProps } from './Card';
 export { default as Card } from './Card';
+export type { IconProps } from './Icon';
+export { default as Icon } from './Icon';
 export type { ThemeProps } from './Theme';
 export { default as Theme } from './Theme';
 export { default as ThemeContext } from './ThemeContext';
