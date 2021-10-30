@@ -107,3 +107,4 @@ dist
 dist/
 lib/
 lib-esm/
+stats.html
