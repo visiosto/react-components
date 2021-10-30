@@ -16,5 +16,7 @@ export { default as ThemeContext } from './ThemeContext';
 export type { ThemeContextProviderProps } from './ThemeContextProvider';
 export { default as ThemeContextProvider } from './ThemeContextProvider';
 
+export { default as checkScrollOnRouteUpdate } from './gatsby/browser';
+
 export { default as createFontStack } from './util/createFontStack';
 export { default as theme } from './util/theme';
