@@ -1,7 +1,7 @@
 {
-  "name": "@visiosto/platform-gatsby",
-  "version": "0.2.1",
-  "description": "Components powering the development of the Visiosto cloud platform built on top of Gatsby and React",
+  "name": "@visiosto/react-components",
+  "version": "0.3.0",
+  "description": "Components powering the development of the Visiosto React web applications",
   "main": "lib/index.js",
   "module": "lib-esm/index.js",
   "typings": "lib/index.d.ts",
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/visiosto/platform-gatsby.git"
+    "url": "git+https://github.com/visiosto/react-components.git"
   },
   "keywords": [
     "react",
@@ -47,9 +47,9 @@
   "author": "Antti Kivi <antti.kivi@visiosto.fi>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/visiosto/platform-gatsby/issues"
+    "url": "https://github.com/visiosto/react-components/issues"
   },
-  "homepage": "https://github.com/visiosto/platform-gatsby#readme",
+  "homepage": "https://github.com/visiosto/react-components#readme",
   "devDependencies": {
     "@babel/cli": "^7.15.7",
     "@babel/core": "^7.15.8",
@@ -102,8 +102,8 @@
     "typescript": "^4.4.4"
   },
   "peerDependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "styled-components": "^5.3.3"
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "styled-components": "5.x"
   }
 }
