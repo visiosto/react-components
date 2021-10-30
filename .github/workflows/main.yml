@@ -196,7 +196,7 @@ jobs:
     - name: Upload build artefacts
       uses: actions/upload-artifact@v2.2.4
       with:
-        name: platform-gatsby-${{ steps.version.outputs.version }}
+        name: react-components-${{ steps.version.outputs.version }}
         path: |
           dist/
           lib/
