@@ -3,7 +3,7 @@
 exports[`Button component renders accept colours correctly 1`] = `
 <div>
   <span
-    class="sc-bdvvtL sc-hKwDye cQWVfy gRYswd"
+    class="Button__Span-sc-1sjcsg7-0 Button__SpanAccept-sc-1sjcsg7-3 hrugIl eyoTOS"
   >
     Button
   </span>
@@ -13,7 +13,7 @@ exports[`Button component renders accept colours correctly 1`] = `
 exports[`Button component renders accept colours correctly on a thin button 1`] = `
 <div>
   <span
-    class="sc-bdvvtL sc-hKwDye cQWVfy gRYswd"
+    class="Button__Span-sc-1sjcsg7-0 Button__SpanAccept-sc-1sjcsg7-3 hrugIl eyoTOS"
   >
     Button
   </span>
@@ -23,7 +23,7 @@ exports[`Button component renders accept colours correctly on a thin button 1`] 
 exports[`Button component renders cancel colours correctly 1`] = `
 <div>
   <span
-    class="sc-bdvvtL sc-eCImPb cQWVfy buYYcp"
+    class="Button__Span-sc-1sjcsg7-0 Button__SpanCancel-sc-1sjcsg7-4 hrugIl dxSqyN"
   >
     Button
   </span>
@@ -33,7 +33,7 @@ exports[`Button component renders cancel colours correctly 1`] = `
 exports[`Button component renders cancel colours correctly on a thin button 1`] = `
 <div>
   <span
-    class="sc-bdvvtL sc-eCImPb cQWVfy buYYcp"
+    class="Button__Span-sc-1sjcsg7-0 Button__SpanCancel-sc-1sjcsg7-4 hrugIl dxSqyN"
   >
     Button
   </span>
@@ -43,7 +43,7 @@ exports[`Button component renders cancel colours correctly on a thin button 1`] 
 exports[`Button component renders default colours correctly 1`] = `
 <div>
   <span
-    class="sc-bdvvtL sc-dkPtRN cQWVfy kLqXOg"
+    class="Button__Span-sc-1sjcsg7-0 Button__SpanDefault-sc-1sjcsg7-2 hrugIl dRcHkR"
   >
     Button
   </span>
@@ -53,7 +53,7 @@ exports[`Button component renders default colours correctly 1`] = `
 exports[`Button component renders default colours correctly on a thin button 1`] = `
 <div>
   <span
-    class="sc-gsDKAQ sc-jRQBWg gxMheJ eVIhDg"
+    class="Button__SpanThin-sc-1sjcsg7-1 Button__SpanDefaultThin-sc-1sjcsg7-5 lbbraJ bUbOyF"
   >
     Button
   </span>

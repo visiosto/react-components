@@ -3,7 +3,7 @@
 exports[`Card component renders card with smaller padding correctly 1`] = `
 <div>
   <article
-    class="sc-bdvvtL hNslzD"
+    class="Card__Article-sc-w9vqqi-0 fqbqQg"
   >
     Test text
   </article>
@@ -13,7 +13,7 @@ exports[`Card component renders card with smaller padding correctly 1`] = `
 exports[`Card component renders centred card correctly 1`] = `
 <div>
   <article
-    class="sc-bdvvtL hUOIrv"
+    class="Card__Article-sc-w9vqqi-0 EJvCM"
   >
     Test text
   </article>
@@ -23,7 +23,7 @@ exports[`Card component renders centred card correctly 1`] = `
 exports[`Card component renders centred card with smaller padding correctly 1`] = `
 <div>
   <article
-    class="sc-bdvvtL gqJgFf"
+    class="Card__Article-sc-w9vqqi-0 bkmErk"
   >
     Test text
   </article>
@@ -33,7 +33,7 @@ exports[`Card component renders centred card with smaller padding correctly 1`] 
 exports[`Card component renders correctly 1`] = `
 <div>
   <article
-    class="sc-bdvvtL escuhn"
+    class="Card__Article-sc-w9vqqi-0 gewqZA"
   >
     Test text
   </article>
