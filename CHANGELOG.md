@@ -8,7 +8,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and this 
 
 ### Added
 
-- Utilities for creating scrolling anchor links with Gatsby.
+- Switch checkbox component.
 
 ## [0.3.0] - 2021-10-30
 
