@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Switch checkbox component renders correctly 1`] = `
+<div>
+  <label
+    for="switch-checkbox"
+  >
+    Switch checkbox
+  </label>
+  <span
+    class="SwitchCheckbox__SwitchInputSpan-sc-1vntclg-0 cpHXSd"
+  >
+    <input
+      checked=""
+      id="switch-checkbox"
+      name="switch-checkbox"
+      type="checkbox"
+    />
+    <span
+      class="SwitchCheckbox__SwitchSpan-sc-1vntclg-1 gPJtgD"
+    />
+  </span>
+</div>
+`;

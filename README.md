@@ -2,7 +2,7 @@
 
 [![Main workflow](https://github.com/visiosto/react-components/actions/workflows/main.yml/badge.svg)](https://github.com/visiosto/react-components/actions/workflows/main.yml)
 
-An npm package with the components powering the development of web applications of Visiosto using React.
+An `npm` package with the components powering the development of web applications of Visiosto using React.
 
 ## Install
 
