@@ -9,6 +9,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and this 
 ### Added
 
 - Switch checkbox component.
+- Some constants to exports.
 
 ## [0.3.0] - 2021-10-30
 

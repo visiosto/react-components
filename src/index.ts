@@ -18,7 +18,7 @@ export { default as ThemeContext } from './ThemeContext';
 export type { ThemeContextProviderProps } from './ThemeContextProvider';
 export { default as ThemeContextProvider } from './ThemeContextProvider';
 
-export { formClassErrorMessage, initialColorModeCSSProp } from './constants';
+export { formClassErrorMessage, colorModeKey, initialColorModeCSSProp } from './constants';
 
 export { default as boxShadowHoverStyle } from './style/boxShadowHoverStyle';
 export { default as boxShadowStyle } from './style/boxShadowStyle';
