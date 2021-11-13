@@ -1,6 +1,6 @@
 {
   "name": "@visiosto/react-components",
-  "version": "0.5.0-dev",
+  "version": "0.5.0",
   "description": "Components powering the development of the Visiosto React web applications",
   "main": "lib/index.js",
   "module": "lib-esm/index.js",
