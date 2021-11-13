@@ -46,6 +46,13 @@ module.exports = {
     'no-use-before-define': 'off',
     'prettier/prettier': 'error',
     'react/display-name': 'off',
+    'react/function-component-definition': [
+      'error',
+      {
+        namedComponents: 'function-declaration',
+        unnamedComponents: 'function-expression',
+      },
+    ],
     'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.tsx'] }],
     'react/jsx-sort-props': ['error', { reservedFirst: ['key', 'ref'], shorthandLast: true }],
   },
