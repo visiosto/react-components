@@ -9,6 +9,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and this 
 ### Added
 
 - Colour scheme listener hook to use with the theme context.
+- Utilities for getting and setting cookies.
+- Utility for encoding form state.
 
 ## [0.4.1] - 2021-11-04
 
