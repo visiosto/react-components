@@ -32,7 +32,7 @@ export default [
       file: `dist/browser.${format}.js`,
       format,
       sourcemap: true,
-      name: 'primer',
+      name: 'react-components',
       globals: {
         react: 'React',
         'react-dom': 'ReactDOM',
