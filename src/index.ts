@@ -17,6 +17,7 @@ export { default as Theme } from './Theme';
 export { default as ThemeContext } from './ThemeContext';
 export type { ThemeContextProviderProps } from './ThemeContextProvider';
 export { default as ThemeContextProvider } from './ThemeContextProvider';
+export { default as useColorSchemeListener } from './useColorSchemeListener';
 
 export { formClassErrorMessage, colorModeKey, initialColorModeCSSProp } from './constants';
 
