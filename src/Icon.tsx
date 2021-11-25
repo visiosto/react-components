@@ -24,20 +24,21 @@ const Span = styled.span<{ size: number }>`
   }}
 `;
 
-export type Icons = 'arrow_back'
-| 'arrow_forward'
-| 'auto_awesome'
-| 'cancel'
-| 'check'
-| 'done'
-| 'event'
-| 'navigate_before'
-| 'navigate_next'
-| 'open_in_new'
-| 'public'
-| 'search'
-| 'send'
-| 'tune';
+export type Icons =
+  | 'arrow_back'
+  | 'arrow_forward'
+  | 'auto_awesome'
+  | 'cancel'
+  | 'check'
+  | 'done'
+  | 'event'
+  | 'navigate_before'
+  | 'navigate_next'
+  | 'open_in_new'
+  | 'public'
+  | 'search'
+  | 'send'
+  | 'tune';
 
 export type IconProps = {
   className?: string | undefined;
