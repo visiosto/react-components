@@ -11,7 +11,7 @@ export { default as encodeFormState } from './encodeFormState';
 export { default as getCookie } from './getCookie';
 export { default as GlobalStyle } from './GlobalStyle';
 export type { IconProps } from './Icon';
-export { default as Icon } from './Icon';
+export { default as Icon, Icons } from './Icon';
 export { default as setCookie } from './setCookie';
 export type { SwitchCheckboxProps } from './SwitchCheckbox';
 export { default as SwitchCheckbox } from './SwitchCheckbox';
