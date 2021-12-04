@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com), and this project adheres to [Semantic Versioning](https://semver.org).
 
+## [Unreleased]
+
+### Added
+
+- External link component that has an icon indicating that the link opens in a new tab.
+
 ## [0.6.0] - 2021-11-25
 
 ### Added
