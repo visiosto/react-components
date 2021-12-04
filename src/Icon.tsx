@@ -32,6 +32,7 @@ export type Icons =
   | 'check'
   | 'done'
   | 'event'
+  | 'language'
   | 'navigate_before'
   | 'navigate_next'
   | 'open_in_new'
