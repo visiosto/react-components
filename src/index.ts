@@ -8,6 +8,8 @@ export { default as Button } from './Button';
 export type { CardProps } from './Card';
 export { default as Card } from './Card';
 export { default as encodeFormState } from './encodeFormState';
+export type { ExternalLinkProps } from './ExternalLink';
+export { default as ExternalLink } from './ExternalLink';
 export { default as getCookie } from './getCookie';
 export { default as GlobalStyle } from './GlobalStyle';
 export type { IconProps } from './Icon';

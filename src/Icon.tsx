@@ -41,7 +41,7 @@ export type Icons =
   | 'tune';
 
 export type IconProps = {
-  className?: string | undefined;
+  className?: string;
   icon: Icons;
   size?: 18 | 24 | 36 | 48 | 64;
 };
