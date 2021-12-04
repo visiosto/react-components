@@ -5,7 +5,7 @@ import React from 'react';
 
 import Icon from './Icon';
 
-type ExternalLinkProps = {
+export type ExternalLinkProps = {
   children: React.ReactNode;
   to: string;
 };
