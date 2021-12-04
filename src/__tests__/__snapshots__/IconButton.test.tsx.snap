@@ -1,12 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Icon button component renders accept colours correctly 1`] = `
+exports[`Icon button component renders accept colours correctly for left alignment 1`] = `
 <div>
   <span
     class="Button__Span-sc-o80e68-0 Button__SpanAccept-sc-o80e68-3 hbAGrJ jelbpC"
   >
     <span
-      class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons md-24 IconButton__ButtonIcon-sc-1o6fqy9-0 jqJFXe"
+      class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons md-24 IconButton__ButtonIconLeft-sc-1o6fqy9-0 iePgGZ"
       size="24"
     >
       search
@@ -17,13 +17,30 @@ exports[`Icon button component renders accept colours correctly 1`] = `
 </div>
 `;
 
-exports[`Icon button component renders accept colours correctly on a thin button 1`] = `
+exports[`Icon button component renders accept colours correctly for right alignment 1`] = `
+<div>
+  <span
+    class="Button__Span-sc-o80e68-0 Button__SpanAccept-sc-o80e68-3 hbAGrJ jelbpC"
+  >
+    IconButton
+     
+    <span
+      class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons md-24 IconButton__ButtonIconRight-sc-1o6fqy9-1 iIxJAr"
+      size="24"
+    >
+      search
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Icon button component renders accept colours correctly on a thin button for left alignment 1`] = `
 <div>
   <span
     class="Button__Span-sc-o80e68-0 Button__SpanAccept-sc-o80e68-3 hbAGrJ jelbpC"
   >
     <span
-      class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons md-24 IconButton__ButtonIcon-sc-1o6fqy9-0 jqJFXe"
+      class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons md-24 IconButton__ButtonIconLeft-sc-1o6fqy9-0 iePgGZ"
       size="24"
     >
       language
@@ -34,13 +51,30 @@ exports[`Icon button component renders accept colours correctly on a thin button
 </div>
 `;
 
-exports[`Icon button component renders cancel colours correctly 1`] = `
+exports[`Icon button component renders accept colours correctly on a thin button for right alignment 1`] = `
+<div>
+  <span
+    class="Button__Span-sc-o80e68-0 Button__SpanAccept-sc-o80e68-3 hbAGrJ jelbpC"
+  >
+    IconButton
+     
+    <span
+      class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons md-24 IconButton__ButtonIconRight-sc-1o6fqy9-1 iIxJAr"
+      size="24"
+    >
+      language
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Icon button component renders cancel colours correctly for left alignment 1`] = `
 <div>
   <span
     class="Button__Span-sc-o80e68-0 Button__SpanCancel-sc-o80e68-4 hbAGrJ bTSMet"
   >
     <span
-      class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons md-24 IconButton__ButtonIcon-sc-1o6fqy9-0 jqJFXe"
+      class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons md-24 IconButton__ButtonIconLeft-sc-1o6fqy9-0 iePgGZ"
       size="24"
     >
       navigate_next
@@ -51,13 +85,30 @@ exports[`Icon button component renders cancel colours correctly 1`] = `
 </div>
 `;
 
-exports[`Icon button component renders cancel colours correctly on a thin button 1`] = `
+exports[`Icon button component renders cancel colours correctly for right alignment 1`] = `
+<div>
+  <span
+    class="Button__Span-sc-o80e68-0 Button__SpanCancel-sc-o80e68-4 hbAGrJ bTSMet"
+  >
+    IconButton
+     
+    <span
+      class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons md-24 IconButton__ButtonIconRight-sc-1o6fqy9-1 iIxJAr"
+      size="24"
+    >
+      navigate_next
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Icon button component renders cancel colours correctly on a thin button for left alignment 1`] = `
 <div>
   <span
     class="Button__Span-sc-o80e68-0 Button__SpanCancel-sc-o80e68-4 hbAGrJ bTSMet"
   >
     <span
-      class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons md-24 IconButton__ButtonIcon-sc-1o6fqy9-0 jqJFXe"
+      class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons md-24 IconButton__ButtonIconLeft-sc-1o6fqy9-0 iePgGZ"
       size="24"
     >
       event
@@ -68,13 +119,30 @@ exports[`Icon button component renders cancel colours correctly on a thin button
 </div>
 `;
 
-exports[`Icon button component renders default colours correctly 1`] = `
+exports[`Icon button component renders cancel colours correctly on a thin button for right alignment 1`] = `
+<div>
+  <span
+    class="Button__Span-sc-o80e68-0 Button__SpanCancel-sc-o80e68-4 hbAGrJ bTSMet"
+  >
+    IconButton
+     
+    <span
+      class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons md-24 IconButton__ButtonIconRight-sc-1o6fqy9-1 iIxJAr"
+      size="24"
+    >
+      event
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Icon button component renders default colours correctly for left alignment 1`] = `
 <div>
   <span
     class="Button__Span-sc-o80e68-0 Button__SpanDefault-sc-o80e68-2 hbAGrJ hWgwyh"
   >
     <span
-      class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons md-24 IconButton__ButtonIcon-sc-1o6fqy9-0 jqJFXe"
+      class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons md-24 IconButton__ButtonIconLeft-sc-1o6fqy9-0 iePgGZ"
       size="24"
     >
       cancel
@@ -85,19 +153,53 @@ exports[`Icon button component renders default colours correctly 1`] = `
 </div>
 `;
 
-exports[`Icon button component renders default colours correctly on a thin button 1`] = `
+exports[`Icon button component renders default colours correctly for right alignment 1`] = `
+<div>
+  <span
+    class="Button__Span-sc-o80e68-0 Button__SpanDefault-sc-o80e68-2 hbAGrJ hWgwyh"
+  >
+    IconButton
+     
+    <span
+      class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons md-24 IconButton__ButtonIconRight-sc-1o6fqy9-1 iIxJAr"
+      size="24"
+    >
+      cancel
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Icon button component renders default colours correctly on a thin button for left alignment 1`] = `
 <div>
   <span
     class="Button__SpanThin-sc-o80e68-1 Button__SpanDefaultThin-sc-o80e68-5 jlfLWh eQMiB"
   >
     <span
-      class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons md-24 IconButton__ButtonIcon-sc-1o6fqy9-0 jqJFXe"
+      class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons md-24 IconButton__ButtonIconLeft-sc-1o6fqy9-0 iePgGZ"
       size="24"
     >
       tune
     </span>
      
     IconButton
+  </span>
+</div>
+`;
+
+exports[`Icon button component renders default colours correctly on a thin button for right alignment 1`] = `
+<div>
+  <span
+    class="Button__SpanThin-sc-o80e68-1 Button__SpanDefaultThin-sc-o80e68-5 jlfLWh eQMiB"
+  >
+    IconButton
+     
+    <span
+      class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons md-24 IconButton__ButtonIconRight-sc-1o6fqy9-1 iIxJAr"
+      size="24"
+    >
+      tune
+    </span>
   </span>
 </div>
 `;
