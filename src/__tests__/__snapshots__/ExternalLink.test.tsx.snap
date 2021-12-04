@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`External link component renders correctly 1`] = `
+<div>
+  <a
+    href="https://www.visiosto.fi"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    Linkki
+     
+    <span
+      class="Icon__Span-sc-1qcplrz-0 dAQUyr material-icons md-18"
+      size="18"
+    >
+      open_in_new
+    </span>
+  </a>
+</div>
+`;

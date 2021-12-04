@@ -61,7 +61,7 @@ const SpanDefaultThin = styled(SpanThin)`
 export type ButtonProps = {
   action?: 'accept' | 'cancel' | 'default';
   children: React.ReactNode;
-  onClick?: React.MouseEventHandler | undefined;
+  onClick?: React.MouseEventHandler;
   thickness?: 'default' | 'thin';
 };
 

@@ -25,7 +25,7 @@ const SwitchSpan = styled.span`
 export type SwitchCheckboxProps = {
   checked?: boolean;
   errorMessage?: string;
-  handleClick: React.MouseEventHandler | undefined;
+  handleClick: React.MouseEventHandler;
   id: string;
   label: string;
   name: string;
