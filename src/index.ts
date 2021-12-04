@@ -15,6 +15,8 @@ export { default as GlobalStyle } from './GlobalStyle';
 export type { IconProps } from './Icon';
 export type { Icons } from './Icon';
 export { default as Icon } from './Icon';
+export type { IconButtonProps } from './IconButton';
+export { default as IconButton } from './IconButton';
 export { default as setCookie } from './setCookie';
 export type { SwitchCheckboxProps } from './SwitchCheckbox';
 export { default as SwitchCheckbox } from './SwitchCheckbox';

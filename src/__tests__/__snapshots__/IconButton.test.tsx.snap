@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon button component renders accept colours correctly 1`] = `
+<div>
+  <span
+    class="Button__Span-sc-o80e68-0 Button__SpanAccept-sc-o80e68-3 hbAGrJ jelbpC"
+  >
+    <span
+      class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons md-24"
+      size="24"
+    >
+      search
+    </span>
+     
+    IconButton
+  </span>
+</div>
+`;
+
+exports[`Icon button component renders accept colours correctly on a thin button 1`] = `
+<div>
+  <span
+    class="Button__Span-sc-o80e68-0 Button__SpanAccept-sc-o80e68-3 hbAGrJ jelbpC"
+  >
+    <span
+      class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons md-24"
+      size="24"
+    >
+      language
+    </span>
+     
+    IconButton
+  </span>
+</div>
+`;
+
+exports[`Icon button component renders cancel colours correctly 1`] = `
+<div>
+  <span
+    class="Button__Span-sc-o80e68-0 Button__SpanCancel-sc-o80e68-4 hbAGrJ bTSMet"
+  >
+    <span
+      class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons md-24"
+      size="24"
+    >
+      navigate_next
+    </span>
+     
+    IconButton
+  </span>
+</div>
+`;
+
+exports[`Icon button component renders cancel colours correctly on a thin button 1`] = `
+<div>
+  <span
+    class="Button__Span-sc-o80e68-0 Button__SpanCancel-sc-o80e68-4 hbAGrJ bTSMet"
+  >
+    <span
+      class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons md-24"
+      size="24"
+    >
+      event
+    </span>
+     
+    IconButton
+  </span>
+</div>
+`;
+
+exports[`Icon button component renders default colours correctly 1`] = `
+<div>
+  <span
+    class="Button__Span-sc-o80e68-0 Button__SpanDefault-sc-o80e68-2 hbAGrJ hWgwyh"
+  >
+    <span
+      class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons md-24"
+      size="24"
+    >
+      cancel
+    </span>
+     
+    IconButton
+  </span>
+</div>
+`;
+
+exports[`Icon button component renders default colours correctly on a thin button 1`] = `
+<div>
+  <span
+    class="Button__SpanThin-sc-o80e68-1 Button__SpanDefaultThin-sc-o80e68-5 jlfLWh eQMiB"
+  >
+    <span
+      class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons md-24"
+      size="24"
+    >
+      tune
+    </span>
+     
+    IconButton
+  </span>
+</div>
+`;
