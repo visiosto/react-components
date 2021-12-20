@@ -194,7 +194,7 @@ jobs:
       run: yarn build
 
     - name: Upload build artefacts
-      uses: actions/upload-artifact@v2.2.4
+      uses: actions/upload-artifact@v2.3.1
       with:
         name: react-components-${{ steps.version.outputs.version }}
         path: |
