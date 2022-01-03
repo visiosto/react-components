@@ -19,7 +19,7 @@ jobs:
       uses: actions/checkout@v2.4.0
 
     - name: Set up Node.js environment
-      uses: actions/setup-node@v2.5.0
+      uses: actions/setup-node@v2.5.1
       with:
         node-version: 14.x
 
@@ -35,7 +35,7 @@ jobs:
         yarn publish --access public
 
     - name: Set up Node.js environment for publishing to GitHub registry
-      uses: actions/setup-node@v2.5.0
+      uses: actions/setup-node@v2.5.1
       with:
         node-version: 14.x
         registry-url: 'https://npm.pkg.github.com'
