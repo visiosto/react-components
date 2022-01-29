@@ -14,7 +14,11 @@ export type ExternalLinkProps = {
 
 function ExternalLink({ children, className = undefined, noIcon = false, to }: ExternalLinkProps) {
   if (noIcon) {
-    return <a className={className} href={to} rel="noopener noreferrer" target="_blank">{children}</a>;
+    return (
+      <a className={className} href={to} rel="noopener noreferrer" target="_blank">
+        {children}
+      </a>
+    );
   }
 
   return (
