@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and this 
 
 ## [Unreleased]
 
+### Added
+
+- `className` property to the external link component to make it function with styled-components.
+
 ### Removed
 
 - Cookie settings class from the global style as the library doesn’t have the cookie component.
