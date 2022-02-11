@@ -28,6 +28,7 @@ export type Icons =
   | 'arrow_back'
   | 'arrow_forward'
   | 'auto_awesome'
+  | 'business'
   | 'cancel'
   | 'check'
   | 'done'
