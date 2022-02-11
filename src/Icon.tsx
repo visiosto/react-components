@@ -43,23 +43,28 @@ export type IconName =
   | 'send'
   | 'tune';
 
+export type IconStyle = 'outlined' | 'filled' | 'round' | 'sharp' | 'two-tone';
+
 export type IconProps = {
   className?: string;
   icon: IconName;
+  iconStyle?: IconStyle;
   size?: 18 | 24 | 36 | 48 | 64;
 };
 
-function Icon({ className = undefined, icon, size = 24 }: IconProps) {
+function Icon({ className = undefined, icon, iconStyle = 'filled', size = 24 }: IconProps) {
+  const materialIconClass = iconStyle === 'filled' ? `material-icons` : `material-icons-${iconStyle}`;
+
   if (className) {
     return (
-      <Span className={`material-icons md-${size} ${className}`} size={size}>
+      <Span className={`${materialIconClass} md-${size} ${className}`} size={size}>
         {icon}
       </Span>
     );
   }
 
   return (
-    <Span className={`material-icons md-${size}`} size={size}>
+    <Span className={`${materialIconClass} md-${size}`} size={size}>
       {icon}
     </Span>
   );

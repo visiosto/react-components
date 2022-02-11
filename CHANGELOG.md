@@ -12,6 +12,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and this 
 - Property to `GlobalStyle` for adding custom styles.
 - `business` icon to `Icon`.
 - `cloud` icon to `Icon`.
+- Property to `Icon` to modify the style of the icons.
 
 ### Changed
 
