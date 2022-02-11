@@ -75,7 +75,7 @@ const GlobalStyle = createGlobalStyle<{ customStyles?: TemplateStringsArray }>`
     font-size: 64px;
   }
 
-  ${(props) => props.customStyles && css(props.customStyles)})};
+  ${(props) => props.customStyles && css(props.customStyles)};
 `;
 
 export default GlobalStyle;
