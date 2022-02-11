@@ -13,6 +13,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and this 
 - `business` icon to `Icon`.
 - `cloud` icon to `Icon`.
 
+### Changed
+
+- Name of the type `Icons` to `IconName`.
+
 ## [0.12.0] - 2022-01-29
 
 ### Added

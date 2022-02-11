@@ -13,7 +13,7 @@ export { default as ExternalLink } from './ExternalLink';
 export { default as getCookie } from './getCookie';
 export { default as GlobalStyle } from './GlobalStyle';
 export type { IconProps } from './Icon';
-export type { Icons } from './Icon';
+export type { IconName } from './Icon';
 export { default as Icon } from './Icon';
 export type { IconButtonProps } from './IconButton';
 export { default as IconButton } from './IconButton';

@@ -24,7 +24,7 @@ const Span = styled.span<{ size: number }>`
   }}
 `;
 
-export type Icons =
+export type IconName =
   | 'arrow_back'
   | 'arrow_forward'
   | 'auto_awesome'
@@ -45,7 +45,7 @@ export type Icons =
 
 export type IconProps = {
   className?: string;
-  icon: Icons;
+  icon: IconName;
   size?: 18 | 24 | 36 | 48 | 64;
 };
 
