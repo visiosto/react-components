@@ -49,6 +49,16 @@ const GlobalStyle = createGlobalStyle`
     }
   }
 
+  span.md-18 {
+    margin: 0;
+    vertical-align: -5px;
+  }
+
+  span.md-24 {
+    margin: 0;
+    vertical-align: -6px;
+  }
+
   .material-icons.md-18 {
     font-size: 18px;
   }

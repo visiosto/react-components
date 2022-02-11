@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com), and this project adheres to [Semantic Versioning](https://semver.org).
 
+## Unreleased
+
+### Added
+
+- Classes to create Material icons from `span`s to add icons to Markdown.
+
 ## [0.12.0] - 2022-01-29
 
 ### Added
