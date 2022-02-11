@@ -31,6 +31,7 @@ export type Icons =
   | 'business'
   | 'cancel'
   | 'check'
+  | 'cloud'
   | 'done'
   | 'event'
   | 'language'
