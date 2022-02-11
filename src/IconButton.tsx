@@ -5,7 +5,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import Button, { ButtonProps } from './Button';
-import Icon, { Icons } from './Icon';
+import Icon, { IconName, IconStyle } from './Icon';
 
 const ButtonIconLeft = styled(Icon)<{ iconMargin: number }>`
   margin: 0 0 0 ${({ iconMargin }) => iconMargin}px;
@@ -16,9 +16,10 @@ const ButtonIconRight = styled(Icon)<{ iconMargin: number }>`
 `;
 
 export type IconButtonProps = ButtonProps & {
-  icon: Icons;
+  icon: IconName;
   iconAlignment?: 'left' | 'right';
   iconMargin?: number;
+  iconStyle?: IconStyle;
 };
 
 function IconButton({
@@ -27,6 +28,7 @@ function IconButton({
   icon,
   iconAlignment = 'left',
   iconMargin = -3,
+  iconStyle = 'filled',
   onClick = undefined,
   thickness = 'default',
 }: IconButtonProps) {
@@ -36,7 +38,8 @@ function IconButton({
         if (iconAlignment === 'left') {
           return (
             <>
-              <ButtonIconLeft icon={icon} iconMargin={iconMargin} /> {children}
+              <ButtonIconLeft icon={icon} iconMargin={iconMargin} iconStyle={iconStyle} />{' '}
+              {children}
             </>
           );
         }
@@ -44,7 +47,8 @@ function IconButton({
         if (iconAlignment === 'right') {
           return (
             <>
-              {children} <ButtonIconRight icon={icon} iconMargin={iconMargin} />
+              {children}{' '}
+              <ButtonIconRight icon={icon} iconMargin={iconMargin} iconStyle={iconStyle} />
             </>
           );
         }

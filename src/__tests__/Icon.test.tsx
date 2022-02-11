@@ -13,4 +13,34 @@ describe('Icon component', () => {
 
     expect(container).toMatchSnapshot();
   });
+
+  it('renders outlined icons correctly', () => {
+    const { container } = renderWithProviders(<Icon icon="cloud" iconStyle="outlined" />);
+
+    expect(container).toMatchSnapshot();
+  });
+
+  it('renders filled icons correctly', () => {
+    const { container } = renderWithProviders(<Icon icon="cloud" iconStyle="filled" />);
+
+    expect(container).toMatchSnapshot();
+  });
+
+  it('renders rounded icons correctly', () => {
+    const { container } = renderWithProviders(<Icon icon="cloud" iconStyle="round" />);
+
+    expect(container).toMatchSnapshot();
+  });
+
+  it('renders sharp icons correctly', () => {
+    const { container } = renderWithProviders(<Icon icon="cloud" iconStyle="sharp" />);
+
+    expect(container).toMatchSnapshot();
+  });
+
+  it('renders two-tone icons correctly', () => {
+    const { container } = renderWithProviders(<Icon icon="cloud" iconStyle="two-tone" />);
+
+    expect(container).toMatchSnapshot();
+  });
 });

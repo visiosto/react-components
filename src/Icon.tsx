@@ -53,7 +53,8 @@ export type IconProps = {
 };
 
 function Icon({ className = undefined, icon, iconStyle = 'filled', size = 24 }: IconProps) {
-  const materialIconClass = iconStyle === 'filled' ? `material-icons` : `material-icons-${iconStyle}`;
+  const materialIconClass =
+    iconStyle === 'filled' ? `material-icons` : `material-icons-${iconStyle}`;
 
   if (className) {
     return (

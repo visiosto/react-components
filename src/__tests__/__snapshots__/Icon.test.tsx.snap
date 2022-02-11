@@ -10,3 +10,58 @@ exports[`Icon component renders correctly 1`] = `
   </span>
 </div>
 `;
+
+exports[`Icon component renders filled icons correctly 1`] = `
+<div>
+  <span
+    class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons md-24"
+    size="24"
+  >
+    cloud
+  </span>
+</div>
+`;
+
+exports[`Icon component renders outlined icons correctly 1`] = `
+<div>
+  <span
+    class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons-outlined md-24"
+    size="24"
+  >
+    cloud
+  </span>
+</div>
+`;
+
+exports[`Icon component renders rounded icons correctly 1`] = `
+<div>
+  <span
+    class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons-round md-24"
+    size="24"
+  >
+    cloud
+  </span>
+</div>
+`;
+
+exports[`Icon component renders sharp icons correctly 1`] = `
+<div>
+  <span
+    class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons-sharp md-24"
+    size="24"
+  >
+    cloud
+  </span>
+</div>
+`;
+
+exports[`Icon component renders two-tone icons correctly 1`] = `
+<div>
+  <span
+    class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons-two-tone md-24"
+    size="24"
+  >
+    cloud
+  </span>
+</div>
+`;
