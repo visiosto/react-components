@@ -3,9 +3,9 @@
 
 import './util/DefaultTheme';
 
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle, css } from 'styled-components';
 
-const GlobalStyle = createGlobalStyle`
+const GlobalStyle = createGlobalStyle<{ customStyles?: TemplateStringsArray }>`
   *, *::before, *::after {
     box-sizing: inherit;
   }
@@ -74,6 +74,8 @@ const GlobalStyle = createGlobalStyle`
   .material-icons.md-64 {
     font-size: 64px;
   }
+
+  ${(props) => props.customStyles && css(props.customStyles)})};
 `;
 
 export default GlobalStyle;

@@ -9,6 +9,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and this 
 ### Added
 
 - Classes to create Material icons from `span`s to add icons to Markdown.
+- Property to `GlobalStyle` for adding custom styles.
 
 ## [0.12.0] - 2022-01-29
 
