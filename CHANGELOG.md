@@ -15,6 +15,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and this 
 - Property to `Icon` to modify the style of the icons.
 - `download` icon to `Icon`.
 - `file_download` icon to `Icon`.
+- `cloud_download` icon to `Icon`.
 
 ### Changed
 

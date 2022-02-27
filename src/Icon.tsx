@@ -32,6 +32,7 @@ export type IconName =
   | 'cancel'
   | 'check'
   | 'cloud'
+  | 'cloud_download'
   | 'done'
   | 'download'
   | 'event'
