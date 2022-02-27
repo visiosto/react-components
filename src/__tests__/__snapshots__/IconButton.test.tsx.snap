@@ -6,7 +6,7 @@ exports[`Icon button component renders accept colours correctly for left alignme
     class="Button__Span-sc-o80e68-0 Button__SpanAccept-sc-o80e68-3 hbAGrJ jelbpC"
   >
     <span
-      class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons md-24 IconButton__ButtonIconLeft-sc-1o6fqy9-0 iePgGZ"
+      class="Icon__Span-sc-1qcplrz-0 kqLtxw IconButton__ButtonIconLeft-sc-1o6fqy9-0 iePgGZ material-icons md-24"
       size="24"
     >
       search
@@ -25,7 +25,7 @@ exports[`Icon button component renders accept colours correctly for right alignm
     IconButton
      
     <span
-      class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons md-24 IconButton__ButtonIconRight-sc-1o6fqy9-1 iIxJAr"
+      class="Icon__Span-sc-1qcplrz-0 kqLtxw IconButton__ButtonIconRight-sc-1o6fqy9-1 iIxJAr material-icons md-24"
       size="24"
     >
       search
@@ -40,7 +40,7 @@ exports[`Icon button component renders accept colours correctly on a thin button
     class="Button__Span-sc-o80e68-0 Button__SpanAccept-sc-o80e68-3 hbAGrJ jelbpC"
   >
     <span
-      class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons md-24 IconButton__ButtonIconLeft-sc-1o6fqy9-0 iePgGZ"
+      class="Icon__Span-sc-1qcplrz-0 kqLtxw IconButton__ButtonIconLeft-sc-1o6fqy9-0 iePgGZ material-icons md-24"
       size="24"
     >
       language
@@ -59,7 +59,7 @@ exports[`Icon button component renders accept colours correctly on a thin button
     IconButton
      
     <span
-      class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons md-24 IconButton__ButtonIconRight-sc-1o6fqy9-1 iIxJAr"
+      class="Icon__Span-sc-1qcplrz-0 kqLtxw IconButton__ButtonIconRight-sc-1o6fqy9-1 iIxJAr material-icons md-24"
       size="24"
     >
       language
@@ -74,7 +74,7 @@ exports[`Icon button component renders cancel colours correctly for left alignme
     class="Button__Span-sc-o80e68-0 Button__SpanCancel-sc-o80e68-4 hbAGrJ bTSMet"
   >
     <span
-      class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons md-24 IconButton__ButtonIconLeft-sc-1o6fqy9-0 iePgGZ"
+      class="Icon__Span-sc-1qcplrz-0 kqLtxw IconButton__ButtonIconLeft-sc-1o6fqy9-0 iePgGZ material-icons md-24"
       size="24"
     >
       navigate_next
@@ -93,7 +93,7 @@ exports[`Icon button component renders cancel colours correctly for right alignm
     IconButton
      
     <span
-      class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons md-24 IconButton__ButtonIconRight-sc-1o6fqy9-1 iIxJAr"
+      class="Icon__Span-sc-1qcplrz-0 kqLtxw IconButton__ButtonIconRight-sc-1o6fqy9-1 iIxJAr material-icons md-24"
       size="24"
     >
       navigate_next
@@ -108,7 +108,7 @@ exports[`Icon button component renders cancel colours correctly on a thin button
     class="Button__Span-sc-o80e68-0 Button__SpanCancel-sc-o80e68-4 hbAGrJ bTSMet"
   >
     <span
-      class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons md-24 IconButton__ButtonIconLeft-sc-1o6fqy9-0 iePgGZ"
+      class="Icon__Span-sc-1qcplrz-0 kqLtxw IconButton__ButtonIconLeft-sc-1o6fqy9-0 iePgGZ material-icons md-24"
       size="24"
     >
       event
@@ -127,7 +127,7 @@ exports[`Icon button component renders cancel colours correctly on a thin button
     IconButton
      
     <span
-      class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons md-24 IconButton__ButtonIconRight-sc-1o6fqy9-1 iIxJAr"
+      class="Icon__Span-sc-1qcplrz-0 kqLtxw IconButton__ButtonIconRight-sc-1o6fqy9-1 iIxJAr material-icons md-24"
       size="24"
     >
       event
@@ -142,7 +142,7 @@ exports[`Icon button component renders default colours correctly for left alignm
     class="Button__Span-sc-o80e68-0 Button__SpanDefault-sc-o80e68-2 hbAGrJ hWgwyh"
   >
     <span
-      class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons md-24 IconButton__ButtonIconLeft-sc-1o6fqy9-0 iePgGZ"
+      class="Icon__Span-sc-1qcplrz-0 kqLtxw IconButton__ButtonIconLeft-sc-1o6fqy9-0 iePgGZ material-icons md-24"
       size="24"
     >
       cancel
@@ -161,7 +161,7 @@ exports[`Icon button component renders default colours correctly for right align
     IconButton
      
     <span
-      class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons md-24 IconButton__ButtonIconRight-sc-1o6fqy9-1 iIxJAr"
+      class="Icon__Span-sc-1qcplrz-0 kqLtxw IconButton__ButtonIconRight-sc-1o6fqy9-1 iIxJAr material-icons md-24"
       size="24"
     >
       cancel
@@ -176,7 +176,7 @@ exports[`Icon button component renders default colours correctly on a thin butto
     class="Button__SpanThin-sc-o80e68-1 Button__SpanDefaultThin-sc-o80e68-5 jlfLWh eQMiB"
   >
     <span
-      class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons md-24 IconButton__ButtonIconLeft-sc-1o6fqy9-0 iePgGZ"
+      class="Icon__Span-sc-1qcplrz-0 kqLtxw IconButton__ButtonIconLeft-sc-1o6fqy9-0 iePgGZ material-icons md-24"
       size="24"
     >
       tune
@@ -195,7 +195,7 @@ exports[`Icon button component renders default colours correctly on a thin butto
     IconButton
      
     <span
-      class="Icon__Span-sc-1qcplrz-0 kqLtxw material-icons md-24 IconButton__ButtonIconRight-sc-1o6fqy9-1 iIxJAr"
+      class="Icon__Span-sc-1qcplrz-0 kqLtxw IconButton__ButtonIconRight-sc-1o6fqy9-1 iIxJAr material-icons md-24"
       size="24"
     >
       tune
