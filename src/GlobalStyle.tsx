@@ -75,6 +75,26 @@ const GlobalStyle = createGlobalStyle<{ customStyles?: TemplateStringsArray }>`
     font-size: 64px;
   }
 
+  ${['outlined', 'filled', 'round', 'sharp', 'two-tone'].map(
+    (style) => css`
+      .material-icons-${style}.md-18 {
+        font-size: 18px;
+      }
+
+      .material-icons-${style}.md-36 {
+        font-size: 36px;
+      }
+
+      .material-icons-${style}.md-48 {
+        font-size: 48px;
+      }
+
+      .material-icons-${style}.md-64 {
+        font-size: 64px;
+      }
+    `,
+  )}
+
   ${(props) => props.customStyles && css(props.customStyles)};
 `;
 

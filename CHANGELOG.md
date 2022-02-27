@@ -16,6 +16,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and this 
 - `download` icon to `Icon`.
 - `file_download` icon to `Icon`.
 - `cloud_download` icon to `Icon`.
+- All of the different icon styles to the sizes in GlobalStyle.
 
 ### Changed
 
