@@ -22,6 +22,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and this 
 
 - Name of the type `Icons` to `IconName`.
 
+### Fixed
+
+- `Icon`’s `className` not working as it was the last class in the list.
+
 ## [0.12.0] - 2022-01-29
 
 ### Added
