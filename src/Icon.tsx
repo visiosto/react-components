@@ -61,7 +61,7 @@ function Icon({ className = undefined, icon, iconStyle = 'filled', size = 24 }: 
 
   if (className) {
     return (
-      <Span className={`${className} ${materialIconClass} md-${size}`} size={size}>
+      <Span className={`${materialIconClass} md-${size} ${className}`} size={size}>
         {icon}
       </Span>
     );
