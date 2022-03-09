@@ -1,4 +1,4 @@
-// Coypright (c) 2021 Visiosto oy
+// Copyright (c) 2021 Visiosto oy
 // Licensed under the MIT License
 
 // Modified from primer/react repository.
