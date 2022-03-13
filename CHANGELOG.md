@@ -4,11 +4,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com), and this project adheres to [Semantic Versioning](https://semver.org).
 
+## [0.14.1] - 2022-03-13
+
+### Fixed
+
+- Changelog for `v0.14.0`.
+
 ## [0.14.0] - 2022-03-13
 
 ### Removed
 
 - Heading styles from the global styles.
+- Link styles from the global styles.
 
 ## [0.13.1] - 2022-02-27
 
@@ -152,7 +159,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and this 
 - Card component.
 - Material icon component.
 
-[unreleased]: https://github.com/visiosto/react-components/compare/v0.14.0...HEAD
+[unreleased]: https://github.com/visiosto/react-components/compare/v0.14.1...HEAD
+[0.14.1]: https://github.com/visiosto/react-components/compare/v0.14.0...v0.14.1
 [0.14.0]: https://github.com/visiosto/react-components/compare/v0.13.1...v0.14.0
 [0.13.1]: https://github.com/visiosto/react-components/compare/v0.13.0...v0.13.1
 [0.13.0]: https://github.com/visiosto/react-components/compare/v0.12.0...v0.13.0
