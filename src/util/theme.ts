@@ -13,13 +13,13 @@ const fonts = {
 
 // The maximum sizes of different viewports.
 const sizes = {
-  mobileS: '20em', // 320px
-  mobileM: '23.4375em', // 375px
-  mobileL: '26.5625em', // 425px
-  tablet: '48em', // 768px
-  laptop: '64em', // 1024px
-  laptopL: '90em', // 1440px
-  fourK: '160em', // 2560px
+  mobileS: '20rem', // 320px
+  mobileM: '23.4375rem', // 375px
+  mobileL: '26.5625rem', // 425px
+  tablet: '48rem', // 768px
+  laptop: '64rem', // 1024px
+  laptopL: '90rem', // 1440px
+  fourK: '160rem', // 2560px
 };
 
 const devices = {
@@ -33,16 +33,16 @@ const devices = {
 };
 
 const layout = {
-  marginMobile: '2em',
-  marginTablet: '4em',
-  marginDesktop: '16em',
+  marginMobile: '2rem',
+  marginTablet: '4rem',
+  marginDesktop: '16rem',
   marginTitleMobile: '0.5rem',
   marginTitleTablet: '1rem',
 };
 
 const borders = {
   commonRadius: '25px',
-  cardRadius: '0.5em',
+  cardRadius: '0.5rem',
 };
 
 const theme: DefaultTheme = {
