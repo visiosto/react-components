@@ -23,32 +23,6 @@ const GlobalStyle = createGlobalStyle<{ customStyles?: TemplateStringsArray }>`
     color: var(--color-text);
   }
 
-  h1, h2 {
-    clear: both;
-    font-family: ${(props) => props.theme.fonts.heading};
-    font-weight: 700;
-    hyphens: auto;
-  }
-
-  h3, h4, h5, h6 {
-    clear: both;
-    font-family: ${(props) => props.theme.fonts.main};
-    font-weight: 700;
-    hyphens: auto;
-  }
-
-  a {
-    color: var(--color-link);
-
-    &:visited {
-      color: var(--color-link);
-    }
-
-    &:hover, &:focus, &:active {
-      color: var(--color-link-hover);
-    }
-  }
-
   span.md-18 {
     margin: 0;
     vertical-align: -5px;
