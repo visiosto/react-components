@@ -159,7 +159,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and this 
 - Card component.
 - Material icon component.
 
-[unreleased]: https://github.com/visiosto/react-components/compare/v0.14.0...HEAD
+[unreleased]: https://github.com/visiosto/react-components/compare/v0.14.1...HEAD
+[0.14.1]: https://github.com/visiosto/react-components/compare/v0.14.0...v0.14.1
 [0.14.0]: https://github.com/visiosto/react-components/compare/v0.13.1...v0.14.0
 [0.13.1]: https://github.com/visiosto/react-components/compare/v0.13.0...v0.13.1
 [0.13.0]: https://github.com/visiosto/react-components/compare/v0.12.0...v0.13.0
