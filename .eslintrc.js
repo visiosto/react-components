@@ -55,5 +55,6 @@ module.exports = {
     ],
     'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.tsx'] }],
     'react/jsx-sort-props': ['error', { reservedFirst: ['key', 'ref'], shorthandLast: true }],
+    'react/require-default-props': 'off',
   },
 };
