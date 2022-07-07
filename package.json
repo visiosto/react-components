@@ -45,7 +45,7 @@
     "!lib-esm/util/test"
   ],
   "author": "Antti Kivi <antti.kivi@visiosto.fi>",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/visiosto/react-components/issues"
   },
@@ -65,7 +65,7 @@
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
     "@types/jest": "^27.4.1",
-    "@types/node": "^17.0.21",
+    "@types/node": "^18.0.3",
     "@types/prop-types": "^15.7.4",
     "@types/react": "^17.0.40",
     "@types/react-dom": "^17.0.13",
