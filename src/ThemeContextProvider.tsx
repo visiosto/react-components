@@ -1,5 +1,5 @@
 // Copyright (c) 2021 Visiosto oy
-// Licensed under the MIT License
+// Licensed under the Apache License, Version 2.0
 
 // Thanks to Joshua Comeau for the original code, licensed under MIT License:
 // https://github.com/joshwcomeau/dark-mode-minimal
