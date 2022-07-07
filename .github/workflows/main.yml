@@ -63,7 +63,7 @@ jobs:
         revision-number: ${{ needs.version.outputs.revision-number }}
 
     - name: Replace the project’s version
-      uses: visiosto/replace-value@v1.0.0
+      uses: visiosto/replace-value@v1.2.1
       with:
         file: package.json
         replaced: ${{ steps.version.outputs.package-version }}
@@ -119,7 +119,7 @@ jobs:
         revision-number: ${{ needs.version.outputs.revision-number }}
 
     - name: Replace the project’s version
-      uses: visiosto/replace-value@v1.0.0
+      uses: visiosto/replace-value@v1.2.1
       with:
         file: package.json
         replaced: ${{ steps.version.outputs.package-version }}
@@ -168,7 +168,7 @@ jobs:
         revision-number: ${{ needs.version.outputs.revision-number }}
 
     - name: Replace the project’s version
-      uses: visiosto/replace-value@v1.0.0
+      uses: visiosto/replace-value@v1.2.1
       with:
         file: package.json
         replaced: ${{ steps.version.outputs.package-version }}
