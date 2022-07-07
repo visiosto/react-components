@@ -52,4 +52,4 @@ This project adheres to the Contributor Covenant [Code of Conduct](https://githu
 
 ## Licence
 
-`react-components`’s source code is licensed under the [MIT License](LICENCE).
+`react-components`’s source code is licensed under the [Apache License, Version 2.0](LICENSE).
